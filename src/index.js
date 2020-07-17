@@ -56,7 +56,7 @@ const createContext = (ctx) => {
   }, ctx)
 
   if (!ctx.env) {
-    process.env.NODE_ENV = 'development'
+    //process.env.NODE_ENV = 'development' // https://github.com/michael-ciniawsky/postcss-load-config/issues/196
   }
 
   return ctx
